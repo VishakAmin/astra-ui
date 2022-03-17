@@ -1,0 +1,10 @@
+:root {
+  --success: #3E613F;
+  --success-bg : #EDF7ED;
+  --warning: #7C5829;
+  --warning-bg: #FFF4E5;
+  --error-bg: #FCEDEC;
+  --error: #5F2120;
+  --info-bg: #E5F5FD;
+  --info: #295C75;
+}

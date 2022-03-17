@@ -1,0 +1,25 @@
+
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+@import './alert.css';
+@import './navbar.css';
+@import './astra-ui.css';
+@import './sidebar.css';
+@import './utils.css';
+@import './variable.css';
+@import './avatar.css';
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Arimo';
+}
+.root-layout{
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}

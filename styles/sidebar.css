@@ -1,0 +1,22 @@
+.sidebar{
+  height: 100vh;
+  align-self: start;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.sidebar-header{
+  padding: 2rem 2.5rem 1.5rem 2rem;
+}
+
+.sidebar-list{
+  list-style: none;
+  padding: 0;
+}
+.sidebar-item{
+  padding: 1rem 2.5rem 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+.sidebar-item:hover {
+  background-color: blue;
+}

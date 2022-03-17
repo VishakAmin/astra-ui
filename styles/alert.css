@@ -1,0 +1,33 @@
+
+.alert{
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid black;
+  max-width:  30rem;
+  width: 100%;
+  margin-top: 1rem;
+  min-height: 3rem;
+  gap: 8px;
+  padding-left: 12px;
+
+}
+
+.alert-success{
+  background-color:var(--success-bg);
+  color: var(--success);
+}
+
+.alert-warning{
+  background-color:var(--warning-bg);
+  color: var(--warning);
+}
+
+.alert-error{
+  background-color:var(--error-bg);
+  color: var(--error);
+}
+.alert-info{
+  background-color:var(--info-bg);
+  color: var(--info);
+}
