@@ -10,6 +10,7 @@
 @import './utils.css';
 @import './variable.css';
 @import './avatar.css';
+@import './badge.css';
 
 *{
   margin: 0;
