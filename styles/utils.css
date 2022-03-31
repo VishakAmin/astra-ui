@@ -9,8 +9,17 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid palevioletred;
+  border: 1px solid var(--shade-2);
+  border-radius: 2rem;
   width: 100%;
   margin : 2rem 0rem;
   padding: 1rem;
+  box-shadow: 0.3rem 0.3rem var(--grey-2);
+  transition: all .2s ease-in-out;
+  position: relative;
+}
+
+
+.component-wrapper :hover {
+  transform: scale(1.1);
 }
