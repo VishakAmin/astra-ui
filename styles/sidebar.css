@@ -18,8 +18,15 @@
   padding: 1rem 2.5rem 1rem 2rem;
   font-size: 1.25rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .sidebar-item:hover {
   background-color: var(--shade-1);
+}
+
+.no-style{
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
 }
